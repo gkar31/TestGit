@@ -9,6 +9,14 @@ public class Test01 {
 		System.out.println("------------------------------- Test GIT -------------------------------");
 		System.out.println("Test01");
 		System.out.println("Test02");
+		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 		System.out.println("Test03");
 		System.out.println("Test04");
 
