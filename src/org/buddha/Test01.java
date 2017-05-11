@@ -1,5 +1,7 @@
 package org.buddha;
 
+import java.util.Date;
+
 public class Test01 {
 
 	/**
@@ -33,6 +35,21 @@ public class Test01 {
 			System.out.println("i:"+i);
 		}
 		
+		
+		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		Date now= new Date();
+		System.out.println("Now before:"+now);
+		while (!now.toString().contains("25")){
+			now= new Date();
+		}
+		System.out.println("Now after:"+now);
 	}
 
 }
