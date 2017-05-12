@@ -8,7 +8,7 @@ public class Test01 {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		System.out.println("------------------------------- Test GIT -------------------------------");
+		System.out.println("------------------------------- Test GIT : un Historique propre -------------------------------");
 		System.out.println("Test01");
 		System.out.println("Test02");
 		
