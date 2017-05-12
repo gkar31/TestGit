@@ -63,6 +63,9 @@ public class Test01 {
 			now= new Date();
 		}
 		System.out.println("Now after:"+now);
+		
+		System.out.println("------------------------------- Fin Test GIT -------------------------------");
+		System.out.println("------------------------------- Goodbye !!! -------------------------------");
 	}
-
+	
 }
