@@ -1,1 +1,2 @@
 *.orig
+bin/org/buddha/*.class
