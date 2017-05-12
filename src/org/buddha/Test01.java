@@ -46,7 +46,21 @@ public class Test01 {
 		
 		Date now= new Date();
 		System.out.println("Now before:"+now);
-		while (!now.toString().contains("25")){
+		while (!now.toString().contains("30")){
+			now= new Date();
+		}
+		System.out.println("Now after:"+now);
+		
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		now= new Date();
+		System.out.println("Now before:"+now);
+		while (!now.toString().contains("00")){
 			now= new Date();
 		}
 		System.out.println("Now after:"+now);
