@@ -58,8 +58,7 @@ public class Test01 {
 			e.printStackTrace();
 		}
 		
-		now= new Date();
-		System.out.println("Now before:"+now);
+		
 		while (!now.toString().contains("00")){
 			now= new Date();
 		}
