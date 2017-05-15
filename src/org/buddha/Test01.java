@@ -54,12 +54,25 @@ public class Test01 {
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			// TODO Auto-generatted catch block
 			e.printStackTrace();
 		}
 		
 		
 		while (!now.toString().contains("00")){
+			now= new Date();
+		}
+		System.out.println("Now after:"+now);
+        
+        try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generatted catch block
+			e.printStackTrace();
+		}
+		
+		
+		while (!now.toString().contains("15")){
 			now= new Date();
 		}
 		System.out.println("Now after:"+now);
