@@ -77,6 +77,20 @@ public class Test01 {
 		}
 		System.out.println("Now after:"+now);
 		
+        
+        try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generatted catch block
+			e.printStackTrace();
+		}
+		
+		
+		while (!now.toString().contains("45")){
+			now= new Date();
+		}
+		System.out.println("Now after:"+now);
+        
 		System.out.println("------------------------------- Fin Test GIT -------------------------------");
 		System.out.println("------------------------------- Goodbye !!! -------------------------------");
 	}
