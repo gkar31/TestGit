@@ -46,7 +46,7 @@ public class Test01 {
 		
 		Date now= new Date();
 		System.out.println("Now before:"+now);
-		while (!now.toString().contains("30")){
+		while (!now.toString().contains("00")){
 			now= new Date();
 		}
 		System.out.println("Now after:"+now);
@@ -59,7 +59,7 @@ public class Test01 {
 		}
 		
 		
-		while (!now.toString().contains("00")){
+		while (!now.toString().contains("15")){
 			now= new Date();
 		}
 		System.out.println("Now after:"+now);
@@ -72,7 +72,7 @@ public class Test01 {
 		}
 		
 		
-		while (!now.toString().contains("15")){
+		while (!now.toString().contains("30")){
 			now= new Date();
 		}
 		System.out.println("Now after:"+now);
